@@ -11,12 +11,13 @@ function App() {
     <div className="App">
       <div className="app_header">
       <Button>Blog</Button>
-        <div className="app_header_social">
-          <Button><GitHubIcon/></Button>
-          <Button><LinkedInIcon/></Button>
-          <Button><TwitterIcon/></Button>
-          <Button><FacebookIcon/></Button>
+        <div>
+          <Button><a href="https://github.com/mjschuette4"><GitHubIcon/></a></Button>
+          <Button><a href="https://www.linkedin.com/in/matthew-schuette/"><LinkedInIcon/></a></Button>
+          <Button><a href="https://twitter.com/Joseph_Schuette"><TwitterIcon/></a></Button>
+          <Button><a href="https://www.facebook.com/joseph.schuette"><FacebookIcon/></a></Button>
         </div>
+        <Button>Contact</Button>
       </div>
       <div className="app_intro">
         <div className="app_content">

@@ -17,7 +17,7 @@
     z-index: 1;
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     border-bottom:1px solid lightgrey;
     /* maintains aspect ratio of logo */
@@ -28,6 +28,10 @@
     -webkit-animation: gradient 30s ease infinite;
     -moz-animation: gradient 30s ease infinite;
     animation: gradient 30s ease infinite;
+}
+
+.app_header_buttons {
+  
 }
 
 .app_intro {
