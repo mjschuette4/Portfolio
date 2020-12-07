@@ -14,17 +14,28 @@
   animation: gradient 30s ease infinite;
 }
 
-.app_content {
+.app_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 25%;
   /* border: 1px solid black; */
+}
+
+.app_content {
   margin-bottom: 20px;
-  width: 30%;
+  /* border: 1px solid black; */
 }
 
 .app_button {
-  /* border: 1px solid black; */
   display: flex;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 20px;
+  /* border: 1px solid black; */
 }
 
 @-webkit-keyframes gradient {
